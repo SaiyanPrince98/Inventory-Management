@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Transparent Login Form</title>
+<link rel="stylesheet" type="text/css"  href="Styles.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <form class="Login" action="index.jsp" method="POST">
+
+        <div class="login-box">
+                <h1>INVENTORY MANAGEMENT </h1>
+        <h2>Login</h2>
+        <div class="textbox">
+                <i class="fa fa-user" aria-hidden="true"></i>
+    
+            <input type="text" placeholder="Username" name="usr" value="">
+        </div>
+        <div class="textbox">
+                <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="Password" placeholder="Password" name="pwd" value="">
+        </div>
+    
+        <input class="btn" type="submit" value="Sign In">
+        <p class="">  
+              Not a member ?
+                <a href="#tologin" class="Switch1"> Go and Signup </a>
+            </p>
+        
+    </div></form>
+<form class="Signup" action="Signup.jsp">
+    <div class="login-box">
+    <h1 class="glitch">INVENTORY MANAGEMENT</h1>
+<h2> Sign up </h2> 
+<div class="textbox">
+    <i class="fa fa-user" aria-hidden="true"></i>
+					<input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="Username" />
+</div>
+<div class="textbox">
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+					<input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="@mail.com"/> 
+</div>
+<div class="textbox">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+					<input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="Password"/>
+</div>
+<div class="textbox">
+    <i class="fa fa-lock" aria-hidden="true"></i>
+					<input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="Confirm Password"/>
+</div>
+<input class="btn" type="submit" value="Sign Up">
+				
+				<p class="">  
+					Already a member ?
+					<a href="#tologin" class="Switch2"> Go and log in </a>
+				</p>
+
+</div>
+</form>
+<script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="Switch.js"></script>
+</body>
